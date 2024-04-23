@@ -1,10 +1,3 @@
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=harshitr22&label=Profile%20views&color=0e75b6&style=flat" alt="harshitr22" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harshitr22" alt="harshitr22" /></a> </p>
-
-
-
 <h3 align="left">Hi 👋! My name is Harshit Raj.<br>I am an aspiring Software Engineer based in London.</h3>
 
 ###
@@ -68,6 +61,10 @@
 </div>
 
 ###
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=harshitr22&label=Profile%20views&color=0e75b6&style=flat" alt="harshitr22" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=harshitr22" alt="harshitr22" /></a> </p>
 
 <br clear="both">
 
