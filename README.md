@@ -1,4 +1,4 @@
-<h3 align="left">Hi 👋! My name is Harshit Raj.<br>I am an aspiring Software Engineer based in London.</h3>
+<h3 align="center">Hi 👋! My name is Harshit Raj.<br>I am an aspiring Software Engineer based in London.</h3>
 
 ###
 
@@ -72,9 +72,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=harshitr22.harshitr22&right_color=aquamarine"  />
-</div>
 
 ###
 
@@ -83,37 +80,3 @@
 
 ###
 
-name: Generate snake animation
-
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
-  workflow_dispatch:
-
-  push:
-    branches:
-    - master
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
-
-
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
